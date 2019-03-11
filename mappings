@@ -1,0 +1,69 @@
+{
+  "Apartment Number": {
+    "type": "keyword"
+  },
+  "Apartment Office Prefix": {
+    "type": "keyword"
+  },
+  "Beat": {
+    "type": "keyword"
+  },
+  "IBR Code": {
+    "type": "keyword"
+  },
+  "Latitude": {
+    "type": "double"
+  },
+  "Location": {
+    "type": "keyword"
+  },
+  "Location Type": {
+    "type": "keyword"
+  },
+  "Longitude": {
+    "type": "double"
+  },
+  "NPU": {
+    "type": "keyword"
+  },
+  "Neighborhood": {
+    "type": "keyword"
+  },
+  "Occur Date": {
+    "type": "keyword"
+  },
+  "Occur Time": {
+    "type": "keyword"
+  },
+  "Possible Date": {
+    "type": "keyword"
+  },
+  "Possible Time": {
+    "type": "keyword"
+  },
+  "Report Date": {
+    "type": "keyword"
+  },
+  "Report Number": {
+    "type": "keyword"
+  },
+  "Shift": {
+    "type": "keyword"
+  },
+  "Shift Occurence": {
+    "type": "keyword"
+  },
+  "UCR #": {
+    "type": "keyword"
+  },
+  "UCR Literal": {
+    "type": "keyword"
+  },
+  "location_geo": {
+    "type": "geo_point"
+  },
+  "@timestamp": {
+    "type": "date",
+    "format": "yyyy-MM-dd HHmm"
+  }
+}
